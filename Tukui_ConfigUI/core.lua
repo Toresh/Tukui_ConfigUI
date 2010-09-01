@@ -10,6 +10,7 @@ local ALLOWED_GROUPS = {
 	["loot"]=1,
 	["cooldown"]=1,
 	["datatext"]=1,
+	["broker_datatext"]=1,
 	["chat"]=1,
 	["tooltip"]=1,
 	["merchant"]=1,
@@ -66,6 +67,21 @@ local function Local(o)
 	if o == "TukuiConfigUIdatatextdur" then o = TukuiL.option_datatext_dur end
 	if o == "TukuiConfigUIdatatextlocation" then o = TukuiL.option_datatext_location end	
 
+	--Broker data text
+	if o == "TukuiConfigUIbroker_datatext" then o = TukuiL.option_broker_datatext_ end
+	if o == "TukuiConfigUIbroker_datatextRaidBuffStatus" then o = TukuiL.option_broker_datatext_RaidBuffStatus end
+	if o == "TukuiConfigUIbroker_datatextCashflow" then o = TukuiL.option_broker_datatext_Cashflow end
+	if o == "TukuiConfigUIbroker_datatextWIM" then o = TukuiL.option_broker_datatext_WIM end
+	if o == "TukuiConfigUIbroker_datatextOutfitter" then o = TukuiL.option_broker_datatext_Outfitter end
+	if o == "TukuiConfigUIbroker_datatextAltoholic" then o = TukuiL.option_broker_datatext_Altoholic end
+	if o == "TukuiConfigUIbroker_datatextDXE" then o = TukuiL.option_broker_datatext_DXE end
+	if o == "TukuiConfigUIbroker_datatextAtlasLoot" then o = TukuiL.option_broker_datatext_AtlasLoot end
+	if o == "TukuiConfigUIbroker_datatextOmen" then o = TukuiL.option_broker_datatext_Omen end
+	if o == "TukuiConfigUIbroker_datatextSpamalyzer" then o = TukuiL.option_broker_datatext_Spamalyzer end
+	if o == "TukuiConfigUIbroker_datatextBroker_HudMap" then o = TukuiL.option_broker_datatext_Broker_HudMap end
+	if o == "TukuiConfigUIbroker_datatextSkinner" then o = TukuiL.option_broker_datatext_Skinner end
+	if o == "TukuiConfigUIbroker_datatextZOMGBuffs" then o = TukuiL.option_broker_datatext_ZOMGBuffs end
+	
 	-- unit frames
 	if o == "TukuiConfigUIunitframes" then o = TukuiL.option_unitframes_unitframes end
 	if o == "TukuiConfigUIunitframescombatfeedback" then o = TukuiL.option_unitframes_combatfeedback end
