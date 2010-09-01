@@ -63,7 +63,8 @@ local function Local(o)
 	if o == "TukuiConfigUIdatatextgold" then o = TukuiL.option_datatext_gold end
 	if o == "TukuiConfigUIdatatextdps_text" then o = TukuiL.option_datatext_dps end
 	if o == "TukuiConfigUIdatatextcrit" then o = TukuiL.option_datatext_crit end	
-	if o == "TukuiConfigUIdatatextdur" then o = TukuiL.option_datatext_dur end	
+	if o == "TukuiConfigUIdatatextdur" then o = TukuiL.option_datatext_dur end
+	if o == "TukuiConfigUIdatatextlocation" then o = TukuiL.option_datatext_location end	
 
 	-- unit frames
 	if o == "TukuiConfigUIunitframes" then o = TukuiL.option_unitframes_unitframes end
@@ -108,6 +109,7 @@ local function Local(o)
 	if o == "TukuiConfigUIunitframesmainassist" then o = TukuiL.option_unitframes_mainassist end
 	if o == "TukuiConfigUIunitframesunicolor" then o = TukuiL.option_unitframes_unicolor end
 	if o == "TukuiConfigUIunitframestotdebuffs" then o = TukuiL.option_unitframes_totdebuffs end
+	if o == "TukuiConfigUIunitframesplayerdebuffonly" then o = TukuiL.option_unitframes_playerdebuffonly end
 
 	-- loot
 	if o == "TukuiConfigUIloot" then o = TukuiL.option_loot end
@@ -118,6 +120,8 @@ local function Local(o)
 	-- map
 	if o == "TukuiConfigUImap" then o = TukuiL.option_map end
 	if o == "TukuiConfigUImapenable" then o = TukuiL.option_map_enable end
+	if o == "TukuiConfigUImapcoord" then o = TukuiL.option_map_coord end
+	if o == "TukuiConfigUImaploctaion" then o = TukuiL.option_map_loctaion end
 	
 	-- invite
 	if o == "TukuiConfigUIinvite" then o = TukuiL.option_invite end
@@ -154,6 +158,11 @@ local function Local(o)
 	if o == "TukuiConfigUIactionbarshapeshiftmouseover" then o = TukuiL.option_actionbar_ssmo end
 	if o == "TukuiConfigUIactionbarbottomrows" then o = TukuiL.option_actionbar_rbn end
 	if o == "TukuiConfigUIactionbarrightbars" then o = TukuiL.option_actionbar_rn end
+	if o == "TukuiConfigUIactionbarsplitbar" then o = TukuiL.option_actionbar_splitbar end
+	if o == "TukuiConfigUIactionbarlocation" then o = TukuiL.option_actionbar_location end
+	if o == "TukuiConfigUIactionbarhorizonbars" then o = TukuiL.option_actionbar_horizonbars end
+	if o == "TukuiConfigUIactionbartopinfo" then o = TukuiL.option_actionbar_topinfo end
+	if o == "TukuiConfigUIactionbarcooldownbar" then o = TukuiL.option_actionbar_cooldownbar end
 	
 	-- quest watch frame
 	if o == "TukuiConfigUIwatchframe" then o = TukuiL.option_quest end

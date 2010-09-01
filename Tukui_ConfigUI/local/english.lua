@@ -43,6 +43,7 @@ TukuiL.option_datatext_gold = "Gold position (0 for disabled)"
 TukuiL.option_datatext_dps = "Damage per second position (0 for disabled)"
 TukuiL.option_datatext_crit = "Crit % position (0 for disabled)"
 TukuiL.option_datatext_dur = "Durability position (0 for disabled)"	
+TukuiL.option_datatext_location = "Location position (0 for diabled)"
  
 -- unit frames
 TukuiL.option_unitframes_unitframes = "Unit Frames"
@@ -87,7 +88,8 @@ TukuiL.option_unitframes_maintank = "Enable Main Tank"
 TukuiL.option_unitframes_mainassist = "Enable Main Assist"
 TukuiL.option_unitframes_unicolor = "Enable Unique color theme (gray health bar)"
 TukuiL.option_unitframes_totdebuffs = "Enable Target of Target debuffs (High Reso)"
- 
+TukuiL.option_unitframes_playerdebuffonly = "Show only your debuffs on Target"
+
 -- loot
 TukuiL.option_loot = "Loot"
 TukuiL.option_loot_enableloot = "Enable loot window"
@@ -97,6 +99,8 @@ TukuiL.option_loot_enableroll = "Enable item roll window"
 -- map
 TukuiL.option_map = "Map"
 TukuiL.option_map_enable = "Enable Map"
+TukuiL.option_map_coord = "Turn on coordinates to show on mouseover on the MiniMap"
+TukuiL.option_map_loctaion = "Turn on location to show on mouseover on the MiniMap"
  
 -- invite
 TukuiL.option_invite = "Invite"
@@ -133,6 +137,11 @@ TukuiL.option_actionbar_hk = "Show hotkey on buttons"
 TukuiL.option_actionbar_ssmo = "Shapeshift bar or Totem bar on mouseover"
 TukuiL.option_actionbar_rbn = "Number of action bars on the bottom (1 or 2)"
 TukuiL.option_actionbar_rn = "Number of action bars on right (0, 1, 2 or 3)"
+TukuiL.option_actionbar_splitbar = "Shows a 3x2 action bar on either side of the main bar"
+TukuiL.option_actionbar_location = "Turns on the info panel below minimap"
+TukuiL.option_actionbar_horizonbars = "Show right bars Horizontal"
+TukuiL.option_actionbar_topinfo = "Turns on info panle above minimap"
+TukuiL.option_actionbar_cooldownbar = "Turns on cooldown bar background"
  
 -- quest watch frame
 TukuiL.option_quest = "Quests"
