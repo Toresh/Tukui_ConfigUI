@@ -68,7 +68,7 @@ local function Local(o)
 	if o == "TukuiConfigUIdatatextlocation" then o = TukuiL.option_datatext_location end	
 
 	--Broker data text
-	if o == "TukuiConfigUIbroker_datatext" then o = TukuiL.option_broker_datatext_ end
+	if o == "TukuiConfigUIbroker_datatext" then o = TukuiL.option_broker_datatext end
 	if o == "TukuiConfigUIbroker_datatextRaidBuffStatus" then o = TukuiL.option_broker_datatext_RaidBuffStatus end
 	if o == "TukuiConfigUIbroker_datatextCashflow" then o = TukuiL.option_broker_datatext_Cashflow end
 	if o == "TukuiConfigUIbroker_datatextWIM" then o = TukuiL.option_broker_datatext_WIM end

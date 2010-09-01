@@ -47,18 +47,18 @@ TukuiL.option_datatext_location = "Location position (0 for diabled)"
 
 --Broker_dataText
 TukuiL.option_broker_datatext = "Broker Addons"
-TukuiL.option_broker_datatext_RaidBuffStatus = "Raid Buff Stats(0 for disabled)"
-TukuiL.option_broker_datatext_Cashflow = "Cash Flow(0 for disabled)"
+TukuiL.option_broker_datatext_RaidBuffStatus = "Raid Buff Status (0 for disabled)"
+TukuiL.option_broker_datatext_Cashflow = "Cash Flow (0 for disabled)"
 TukuiL.option_broker_datatext_WIM = "WIM (0 for disabled)"
-TukuiL.option_broker_datatext_Outfitter = "OutFitter(0 for disabled)"
+TukuiL.option_broker_datatext_Outfitter = "OutFitter (0 for disabled)"
 TukuiL.option_broker_datatext_Altoholic = "Altoholic (0 for disabled)"
 TukuiL.option_broker_datatext_DXE = "DXE (0 for disabled)"
 TukuiL.option_broker_datatext_AtlasLoot = "AtlasLoot (0 for disabled)"
 TukuiL.option_broker_datatext_Omen = "Omen (0 for disabled)"
 TukuiL.option_broker_datatext_Spamalyzer = "Spamalyzer (0 for disabled)"
-TukuiL.option_broker_datatext_Broker_HudMap = "Hud Map(0 for disabled)"
+TukuiL.option_broker_datatext_Broker_HudMap = "Hud Map (0 for disabled)"
 TukuiL.option_broker_datatext_Skinner = "Skinner (0 for disabled)"
-TukuiL.option_broker_datatext_ZOMGBuffs = "ZOMG Buffs(0 for disabled)"
+TukuiL.option_broker_datatext_ZOMGBuffs = "ZOMG Buffs (0 for disabled)"
 
 -- unit frames
 TukuiL.option_unitframes_unitframes = "Unit Frames"
