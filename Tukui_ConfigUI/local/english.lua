@@ -115,8 +115,10 @@ TukuiL.option_loot_enableroll = "Enable item roll window"
 TukuiL.option_map = "Map"
 TukuiL.option_map_enable = "Enable Map"
 TukuiL.option_map_coord = "Turn on coordinates to show on mouseover on the MiniMap"
-TukuiL.option_map_loctaion = "Turn on location to show on mouseover on the MiniMap"
- 
+TukuiL.option_map_loctaionhover = "Turn on location to show on mouseover on the MiniMap"
+TukuiL.option_map_topinfo = "Turns on info panle above minimap"
+TukuiL.option_map_location = "Turns on the info panel below minimap"
+
 -- invite
 TukuiL.option_invite = "Invite"
 TukuiL.option_invite_autoinvite = "Enable Auto-Invite (Friends and Guildmates)"
@@ -153,9 +155,7 @@ TukuiL.option_actionbar_ssmo = "Shapeshift bar or Totem bar on mouseover"
 TukuiL.option_actionbar_rbn = "Number of action bars on the bottom (1 or 2)"
 TukuiL.option_actionbar_rn = "Number of action bars on right (0, 1, 2 or 3)"
 TukuiL.option_actionbar_splitbar = "Shows a 3x2 action bar on either side of the main bar"
-TukuiL.option_actionbar_location = "Turns on the info panel below minimap"
 TukuiL.option_actionbar_horizonbars = "Show right bars Horizontal"
-TukuiL.option_actionbar_topinfo = "Turns on info panle above minimap"
 TukuiL.option_actionbar_cooldownbar = "Turns on cooldown bar background"
  
 -- quest watch frame

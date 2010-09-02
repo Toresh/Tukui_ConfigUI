@@ -137,7 +137,9 @@ local function Local(o)
 	if o == "TukuiConfigUImap" then o = TukuiL.option_map end
 	if o == "TukuiConfigUImapenable" then o = TukuiL.option_map_enable end
 	if o == "TukuiConfigUImapcoord" then o = TukuiL.option_map_coord end
-	if o == "TukuiConfigUImaploctaion" then o = TukuiL.option_map_loctaion end
+	if o == "TukuiConfigUImaploctaionhover" then o = TukuiL.option_map_loctaion end
+	if o == "TukuiConfigUImaptopinfo" then o = TukuiL.option_map_topinfo end
+	if o == "TukuiConfigUImaplocation" then o = TukuiL.option_map_location end
 	
 	-- invite
 	if o == "TukuiConfigUIinvite" then o = TukuiL.option_invite end
@@ -175,9 +177,7 @@ local function Local(o)
 	if o == "TukuiConfigUIactionbarbottomrows" then o = TukuiL.option_actionbar_rbn end
 	if o == "TukuiConfigUIactionbarrightbars" then o = TukuiL.option_actionbar_rn end
 	if o == "TukuiConfigUIactionbarsplitbar" then o = TukuiL.option_actionbar_splitbar end
-	if o == "TukuiConfigUIactionbarlocation" then o = TukuiL.option_actionbar_location end
 	if o == "TukuiConfigUIactionbarhorizonbars" then o = TukuiL.option_actionbar_horizonbars end
-	if o == "TukuiConfigUIactionbartopinfo" then o = TukuiL.option_actionbar_topinfo end
 	if o == "TukuiConfigUIactionbarcooldownbar" then o = TukuiL.option_actionbar_cooldownbar end
 	
 	-- quest watch frame
