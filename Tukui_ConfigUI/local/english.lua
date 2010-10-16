@@ -7,9 +7,11 @@ TukuiL.option_general_override = "Use High reso layout on a Lower reso"
 TukuiL.option_general_multisample = "Multisample protection (clean 1px border)"
 TukuiL.option_general_customuiscale = "UI Scale (if auto-scale is disabled)"
  
--- nameplate
 TukuiL.option_nameplates = "Nameplates"
 TukuiL.option_nameplates_enable = "Enable Nameplates"
+TukuiL.option_nameplates_showclassicons = "Show class icons on enemy players"
+TukuiL.option_nameplates_enhancethreat = "Enable threat feature, automatically changes by your roll: \n Tank - Green (aggro) Red (noaggro) DPS - Green (noaggro) Red (aggro)"
+TukuiL.option_nameplates_showhealth = "Show health on nameplate"
  
 -- merchant
 TukuiL.option_merchant = "Merchant"
