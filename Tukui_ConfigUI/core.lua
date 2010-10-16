@@ -16,7 +16,6 @@ local ALLOWED_GROUPS = {
 	["merchant"]=1,
 	["error"]=1,
 	["invite"]=1,
-	["watchframe"]=1,
 	["buffreminder"]=1,
 	["others"]=1,
 }
@@ -45,7 +44,6 @@ local function Local(o)
 	-- bags
 	if o == "TukuiConfigUIbags" then o = TukuiL.option_bags end
 	if o == "TukuiConfigUIbagsenable" then o = TukuiL.option_bags_enable end
-	if o == "TukuiConfigUIbagssoulbag" then o = TukuiL.option_bags_soulbag end
 	
 	-- datatext
 	if o == "TukuiConfigUIdatatext" then o = TukuiL.option_datatext end
@@ -254,7 +252,7 @@ local function ShowGroup(group)
 	end
 end
 
-local function CreateTukuiConfigUI()
+function CreateTukuiConfigUI()
 	if TukuiConfigUI then
 		ShowGroup("general")
 		TukuiConfigUI:Show()
@@ -394,7 +392,7 @@ local function CreateTukuiConfigUI()
 				local oktext = okbutton:CreateFontString(nil,"OVERLAY",nil)
 				oktext:SetFont(TukuiCF.media.font,12,"OUTLINE")
 				oktext:SetText("OK")
-				oktext:SetPoint("CENTER")
+				oktext:SetPoint("CENTER", TukuiDB.Scale(1), 0)
 				oktext:SetJustifyH("CENTER")
 				okbutton:Hide()
  
