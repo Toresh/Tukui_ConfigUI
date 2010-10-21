@@ -35,6 +35,10 @@ local function Local(o)
 	-- nameplate
 	if o == "TukuiConfigUInameplate" then o = TukuiL.option_nameplates end
 	if o == "TukuiConfigUInameplateenable" then o = TukuiL.option_nameplates_enable end
+	if o == "TukuiConfigUInameplateshowhealth" then o = TukuiL.option_nameplates_showhealth end
+	if o == "TukuiConfigUInameplateenhancethreat" then o = TukuiL.option_nameplates_enhancethreat end
+	if o == "TukuiConfigUInameplateshowcombo" then o = TukuiL.option_nameplates_showcombo end
+	if o == "TukuiConfigUInameplateoverlap" then o = UNIT_NAMEPLATES_ALLOW_OVERLAP end
 	
 	-- merchant
 	if o == "TukuiConfigUImerchant" then o = TukuiL.option_merchant end

@@ -14,6 +14,9 @@ TukuiL.option_general_petbarbuttonsize = "Set the size of the buttons on your pe
 -- nameplate
 TukuiL.option_nameplates = "Nameplates"
 TukuiL.option_nameplates_enable = "Enable Nameplates"
+TukuiL.option_nameplates_enhancethreat = "Enable threat feature, automatically changes by your roll: \n Tank - Green (aggro) Red (noaggro) DPS - Green (noaggro) Red (aggro)"
+TukuiL.option_nameplates_showhealth = "Show health on nameplate"
+TukuiL.option_nameplates_showcombo = "Show combo points on targetted nameplate"
  
 -- merchant
 TukuiL.option_merchant = "Merchant"
