@@ -84,7 +84,7 @@ local function Local(o)
 	if o == "TukuiConfigUIunitframesshowplayerinparty" then o = TukuiL.option_unitframes_playerparty end
 	if o == "TukuiConfigUIunitframesraidunitdebuffwatch" then o = TukuiL.option_unitframes_aurawatch end
 	if o == "TukuiConfigUIunitframesunitcastbar" then o = TukuiL.option_unitframes_castbar end
-	if o == "TukuiConfigUIunitframesstandAloneCast" then o = TukuiL.option_unitframes_standAloneCast rnd
+	if o == "TukuiConfigUIunitframesstandAloneCast" then o = TukuiL.option_unitframes_standAloneCast end
 	if o == "TukuiConfigUIunitframestargetauras" then o = TukuiL.option_unitframes_targetaura end
 	if o == "TukuiConfigUIunitframespositionbychar" then o = TukuiL.option_unitframes_saveperchar end
 	if o == "TukuiConfigUIunitframesws_show_time" then o = TukuiL.option_unitframes_wstimer end
