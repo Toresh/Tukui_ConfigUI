@@ -84,6 +84,7 @@ local function Local(o)
 	if o == "TukuiConfigUIunitframesshowplayerinparty" then o = TukuiL.option_unitframes_playerparty end
 	if o == "TukuiConfigUIunitframesraidunitdebuffwatch" then o = TukuiL.option_unitframes_aurawatch end
 	if o == "TukuiConfigUIunitframesunitcastbar" then o = TukuiL.option_unitframes_castbar end
+	if o == "TukuiConfigUIunitframesstandAloneCast" then o = TukuiL.option_unitframes_standAloneCast rnd
 	if o == "TukuiConfigUIunitframestargetauras" then o = TukuiL.option_unitframes_targetaura end
 	if o == "TukuiConfigUIunitframespositionbychar" then o = TukuiL.option_unitframes_saveperchar end
 	if o == "TukuiConfigUIunitframesws_show_time" then o = TukuiL.option_unitframes_wstimer end
@@ -118,6 +119,8 @@ local function Local(o)
 	if o == "TukuiConfigUIunitframesunicolor" then o = TukuiL.option_unitframes_unicolor end
 	if o == "TukuiConfigUIunitframestotdebuffs" then o = TukuiL.option_unitframes_totdebuffs end
 	if o == "TukuiConfigUIunitframesplayerdebuffonly" then o = TukuiL.option_unitframes_playerdebuffonly end
+	if o == "TukuiConfigUIunitframesunitswingbar" then o = TukuiL.option_unitframes_unitframes_unitswingbar end
+	if o == "TukuiConfigUIunitframesclassTimerLayout" then o = TukuiL.option_unitframes_unitframes_classTimerLayout end
 
 	-- loot
 	if o == "TukuiConfigUIloot" then o = TukuiL.option_loot end
