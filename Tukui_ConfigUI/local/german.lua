@@ -139,7 +139,11 @@
 	-- arena
 	TukuiL.option_arena = "Arena"
 	TukuiL.option_arena_st = "Aktiviere Tracker gegnerischer Zauber"
-	TukuiL.option_arena_uf = "Aktiviere Tukui Arena Unitframes"  
+	TukuiL.option_arena_uf = "Aktiviere Tukui Arena Unitframes" 
+	
+	-- pvp
+	TukuiL.option_pvp = "Pvp"
+	TukuiL.option_pvp_ii = "Enable Interrupt Icons"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "Abklingzeiten"

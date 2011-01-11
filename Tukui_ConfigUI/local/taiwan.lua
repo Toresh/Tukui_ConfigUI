@@ -140,6 +140,10 @@
 	TukuiL.option_arena = "競技場"
 	TukuiL.option_arena_st = "開啟競技場敵方法術追蹤"
 	TukuiL.option_arena_uf = "開啟競技場單位視窗"
+	
+	-- pvp
+	TukuiL.option_pvp = "Pvp"
+	TukuiL.option_pvp_ii = "Enable Interrupt Icons"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "冷卻"

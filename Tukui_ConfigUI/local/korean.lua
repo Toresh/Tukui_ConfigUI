@@ -140,6 +140,10 @@
 	TukuiL.option_arena = "투기장"
 	TukuiL.option_arena_st = "상대 플레이어의 주문 추적을 사용"
 	TukuiL.option_arena_uf = "투기장 상대 플레이어창을 사용 (Tukui 개체창을 사용 중이어야 함)"
+	
+	-- pvp
+	TukuiL.option_pvp = "Pvp"
+	TukuiL.option_pvp_ii = "Enable Interrupt Icons"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "재사용 대기시간"

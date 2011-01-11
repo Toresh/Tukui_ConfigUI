@@ -140,6 +140,10 @@
 	TukuiL.option_arena = "Арена"
 	TukuiL.option_arena_st = "Отслеживание вражеский заклинаний на арене"
 	TukuiL.option_arena_uf = "Отображать рамки юнитов на арене"
+	
+	-- pvp
+	TukuiL.option_pvp = "Pvp"
+	TukuiL.option_pvp_ii = "Enable Interrupt Icons"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "Перезарядки"

@@ -141,6 +141,10 @@ TukuiL.option_quest_movable = "Quest Watch frame movable"
 TukuiL.option_arena = "Arena"
 TukuiL.option_arena_st = "Enable enemy spell tracker in arena"
 TukuiL.option_arena_uf = "Enable arena unit frames"
+
+-- pvp
+TukuiL.option_pvp = "Pvp"
+TukuiL.option_pvp_ii = "Enable Interrupt Icons"
  
 -- cooldowns
 TukuiL.option_cooldown = "Cooldowns"

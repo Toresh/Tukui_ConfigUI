@@ -140,6 +140,10 @@
 	TukuiL.option_arena = "Arène"
 	TukuiL.option_arena_st = "Activer le traqueur de sorts ennemi"
 	TukuiL.option_arena_uf = "Activer l'Unit Frame d'arène"
+	
+	-- pvp
+	TukuiL.option_pvp = "Pvp"
+	TukuiL.option_pvp_ii = "Activer le traqueur des sorts qui interrompt l'incantation"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "Cooldowns"

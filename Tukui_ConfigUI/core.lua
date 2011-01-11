@@ -162,6 +162,10 @@ local function Local(o)
 	if o == "TukuiConfigUIarenaspelltracker" then o = TukuiL.option_arena_st end
 	if o == "TukuiConfigUIarenaunitframes" then o = TukuiL.option_arena_uf end
 	
+	-- pvp
+	if o == "TukuiConfigUIpvp" then o = TukuiL.option_pvp end
+	if o == "TukuiConfigUIpvpii" then o = TukuiL.option_pvp_ii end
+	
 	-- cooldowns
 	if o == "TukuiConfigUIcooldown" then o = TukuiL.option_cooldown end
 	if o == "TukuiConfigUIcooldownenable" then o = TukuiL.option_cooldown_enable end

@@ -140,6 +140,10 @@
 	TukuiL.option_arena = "Arena"
 	TukuiL.option_arena_st = "Habilitar Rastreador de habilidades de enemigos en Arena"
 	TukuiL.option_arena_uf = "Habilitar TukUI marcos de arena"
+	
+	-- pvp
+	TukuiL.option_pvp = "Pvp"
+	TukuiL.option_pvp_ii = "Enable Interrupt Icons"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "Tiempo de reutilización"
