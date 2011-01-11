@@ -3,6 +3,7 @@ local ALLOWED_GROUPS = {
 	["general"]=1,
 	["unitframes"]=1,
 	["arena"]=1,
+	["pvp"]=1,
 	["actionbar"]=1,
 	["nameplate"]=1,
 	["bags"]=1,
@@ -165,7 +166,7 @@ local function Local(o)
 	
 	-- pvp
 	if o == "TukuiConfigUIpvp" then o = TukuiL.option_pvp end
-	if o == "TukuiConfigUIpvpii" then o = TukuiL.option_pvp_ii end
+	if o == "TukuiConfigUIpvpinterrupt" then o = TukuiL.option_pvp_ii end
 	
 	-- cooldowns
 	if o == "TukuiConfigUIcooldown" then o = TukuiL.option_cooldown end
@@ -233,6 +234,11 @@ function CreateTukuiConfigUI()
 		ShowGroup("general")
 		TukuiConfigUI:Show()
 		return
+	end
+	
+	local version = tonumber(TukuiDB.version)
+	if version < 12.59 then
+		print(TukuiL.option_update)
 	end
 	
 	-- MAIN FRAME

@@ -1,4 +1,8 @@
 ﻿if GetLocale() == "zhTW" then
+
+	-- update needed msg
+	TukuiL.option_update = "You need to update your Tukui ConfigUI addons because of Tukui latest changes, please visit www.tukui.org"
+	
 	-- general
 	TukuiL.option_general = "一般"
 	TukuiL.option_general_uiscale = "自動調整使用者介面比例"

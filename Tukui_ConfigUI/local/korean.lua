@@ -1,4 +1,8 @@
 ﻿if GetLocale() == "koKR" then
+
+	-- update needed msg
+	TukuiL.option_update = "You need to update your Tukui ConfigUI addons because of Tukui latest changes, please visit www.tukui.org"
+	
 	-- general
 	TukuiL.option_general = "일반"
 	TukuiL.option_general_uiscale = "자동으로 UI크기를 조절"

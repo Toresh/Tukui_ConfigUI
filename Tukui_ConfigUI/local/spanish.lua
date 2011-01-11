@@ -1,4 +1,8 @@
 ﻿if GetLocale() == "esES" then
+
+	-- update needed msg
+	TukuiL.option_update = "You need to update your Tukui ConfigUI addons because of Tukui latest changes, please visit www.tukui.org"
+	
 	-- general
 	TukuiL.option_general = "General"
 	TukuiL.option_general_uiscale = "Escala UI Automatica"
