@@ -14,6 +14,7 @@
 	TukuiL.option_merchant = "상점"
 	TukuiL.option_merchant_autosell = "회색 아이템의 자동판매를 사용"
 	TukuiL.option_merchant_autorepair = "자동수리를 사용"
+	TukuiL.option_merchant_sellmisc = "Sell some defined (craps not gray) items automatically"
  
 	-- bags
 	TukuiL.option_bags = "가방"

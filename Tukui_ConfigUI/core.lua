@@ -35,6 +35,7 @@ local function Local(o)
 	if o == "TukuiConfigUImerchant" then o = TukuiL.option_merchant end
 	if o == "TukuiConfigUImerchantsellgrays" then o = TukuiL.option_merchant_autosell end
 	if o == "TukuiConfigUImerchantautorepair" then o = TukuiL.option_merchant_autorepair end
+	if o == "TukuiConfigUImerchantsellmisc" then o = TukuiL.option_merchant_sellmisc end
 	
 	-- bags
 	if o == "TukuiConfigUIbags" then o = TukuiL.option_bags end

@@ -14,6 +14,7 @@
 	TukuiL.option_merchant = "Mercante"
 	TukuiL.option_merchant_autosell = "Vender Objetos Gris Automaticamente"
 	TukuiL.option_merchant_autorepair = "Reparar Objetos Automaticamente"
+	TukuiL.option_merchant_sellmisc = "Sell some defined (craps not gray) items automatically"
  
 	-- bags
 	TukuiL.option_bags = "Bolsos"

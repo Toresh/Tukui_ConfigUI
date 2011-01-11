@@ -15,6 +15,7 @@ TukuiL.option_nameplates_enable = "Enable Nameplates"
 TukuiL.option_merchant = "Merchant"
 TukuiL.option_merchant_autosell = "Auto sell gray items"
 TukuiL.option_merchant_autorepair = "Auto Repair items"
+TukuiL.option_merchant_sellmisc = "Sell some defined (craps not gray) items automatically"
  
 -- bags
 TukuiL.option_bags = "Bags"

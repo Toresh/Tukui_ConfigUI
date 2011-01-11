@@ -14,6 +14,7 @@
 	TukuiL.option_merchant = "商人"
 	TukuiL.option_merchant_autosell = "自動販賣灰色等級物品"
 	TukuiL.option_merchant_autorepair = "自動修復裝備"
+	TukuiL.option_merchant_sellmisc = "Sell some defined (craps not gray) items automatically"
  
 	-- bags
 	TukuiL.option_bags = "背包"

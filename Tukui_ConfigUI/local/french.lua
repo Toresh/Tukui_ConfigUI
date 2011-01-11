@@ -14,6 +14,7 @@
 	TukuiL.option_merchant = "Commerce"
 	TukuiL.option_merchant_autosell = "Vente auto des objets gris"
 	TukuiL.option_merchant_autorepair = "Réparation auto de l'équipement"
+	TukuiL.option_merchant_sellmisc = "Vendre certains objets définis (non-gris, pas utile) automatiquement."
  
 	-- bags
 	TukuiL.option_bags = "Sacs"
