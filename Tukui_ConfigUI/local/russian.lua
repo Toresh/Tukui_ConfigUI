@@ -1,7 +1,7 @@
 ﻿if GetLocale() == "ruRU" then
 
 	-- update needed msg
-	TukuiL.option_update = "You need to update your Tukui ConfigUI addon because of Tukui latest changes, please visit www.tukui.org"
+	TukuiL.option_update = "Необходимо обновить Tukui_ConfigUI чтобы настройки соответствовали последним изменениям Tukui, пожалуйста посетите www.tukui.org" -- CHANGES
 
 	-- general
 	TukuiL.option_general = "Общее"
@@ -13,12 +13,18 @@
 	-- nameplate
 	TukuiL.option_nameplates = "Индикаторы здоровья"
 	TukuiL.option_nameplates_enable = "Включить индикаторы здоровья"
+	TukuiL.option_nameplates_enhancethreat = "Включить поддержку угрозы, зависит от вашей роли"
+	TukuiL.option_nameplates_showhealth = "Показывать здоровье на индикаторе"
+	TukuiL.option_nameplates_combat = "Отображать индикаторы противников только в бою"
+	TukuiL.option_nameplates_goodcolor = "Хороший цвет, высокий уровень угрозы у танка и низкий у дпс/хила" -- CHANGES
+	TukuiL.option_nameplates_badcolor = "Плохой цвет, срыв агро дпс или хилом/низкий уровень угрозы у танка" -- CHANGES
+	TukuiL.option_nameplates_transitioncolor = "Изменять цвет при потере/наборе угрозы" -- changes
  
 	-- merchant
 	TukuiL.option_merchant = "Торговля"
 	TukuiL.option_merchant_autosell = "Автоматически продавать серые предметы"
 	TukuiL.option_merchant_autorepair = "Автоматический ремонт"
-	TukuiL.option_merchant_sellmisc = "Sell some defined (craps not gray) items automatically"
+	TukuiL.option_merchant_sellmisc = "Продажа определенных (не серых) вещей автоматически"
  
 	-- bags
 	TukuiL.option_bags = "Сумки"
@@ -37,15 +43,19 @@
 	TukuiL.option_datatext_fontsize = "Размер шрифта текста"
 	TukuiL.option_datatext_fps_ms = "Задержка и К/С"
 	TukuiL.option_datatext_armor = "Броня"
-	TukuiL.option_datatext_avd = "Избежание"
-	TukuiL.option_datatext_power = "Power position"
+	TukuiL.option_datatext_avd = "Уворот"
+	TukuiL.option_datatext_power = "Сила"
 	TukuiL.option_datatext_haste = "Скорость"
 	TukuiL.option_datatext_friend = "Друзья"
 	TukuiL.option_datatext_time = "Время"
 	TukuiL.option_datatext_gold = "Золото"
 	TukuiL.option_datatext_dps = "УВС"
 	TukuiL.option_datatext_crit = "Крит"
-	TukuiL.option_datatext_dur = "Прочность"	
+	TukuiL.option_datatext_dur = "Прочность"
+	TukuiL.option_datatext_currency = "Валюты (0 для отключения)"
+	TukuiL.option_datatext_micromenu = "Микроменю (0 для отключения)"
+	TukuiL.option_datatext_hit = "Меткость (0 для отключения)"
+	TukuiL.option_datatext_mastery = "Mастерство (0 для отключения)"	
  
 	-- unit frames
 	TukuiL.option_unitframes_unitframes = "Рамки юнитов"
@@ -59,17 +69,14 @@
 	TukuiL.option_unitframes_castbar = "Включить полосу применения"
 	TukuiL.option_unitframes_targetaura = "Включить ауры цели"
 	TukuiL.option_unitframes_saveperchar = "Сохранять позицию рамок юнитов для персонажа"
-	TukuiL.option_unitframes_wstimer = "Включить таймер на панели Ослабленной души (только для Жреца)"
 	TukuiL.option_unitframes_playeraggro = "Включить отображение собственной угрозы"
 	TukuiL.option_unitframes_smooth = "Плавное изменение полос"
 	TukuiL.option_unitframes_portrait = "Включить портреты игрока и цели"
 	TukuiL.option_unitframes_enable = "Включить рамки юнитов Tukui"
-	TukuiL.option_unitframes_wstarget = "Включить панель Ослабленной души на цели (только для Жреца)"
 	TukuiL.option_unitframes_enemypower = "Включить отображение энергии только для врагов"
 	TukuiL.option_unitframes_gridonly = "Включить режим Grid only для целителей"
 	TukuiL.option_unitframes_healcomm = "Включить healcomm"
 	TukuiL.option_unitframes_focusdebuff = "Включить дебаффы фокуса"
-	TukuiL.option_unitframes_wsplayer = "Включить панель Ослабленной души на себе"
 	TukuiL.option_unitframes_raidaggro = "Включить отображение угрозы на рамках группы/рейда"
 	TukuiL.option_unitframes_boss = "Включить рамки боссов"
 	TukuiL.option_unitframes_enemyhostilitycolor = "Окрашивать полосу здоровья врага по враждебности"
@@ -90,6 +97,9 @@
 	TukuiL.option_unitframes_mainassist = "Включить отображение наводчика"
 	TukuiL.option_unitframes_unicolor = "Включить унифицированную цветовую схему (серая полоса здоровья)"
 	TukuiL.option_unitframes_totdebuffs = "Включить дебаффы цели цели (Высокое разрешение)"
+	TukuiL.option_unitframes_classbar = "Включить классовую панель"
+	TukuiL.option_unitframes_weakenedsoulbar = "Включить уведомление Ослабленной души (для Приста)"
+	TukuiL.option_unitframes_onlyselfdebuffs = "Отображать только ваши дебаффы на цели"
  
 	-- loot
 	TukuiL.option_loot = "Добыча"
@@ -108,7 +118,7 @@
 	-- tooltip
 	TukuiL.option_tooltip = "Подксказка"
 	TukuiL.option_tooltip_enable = "Включить подсказку"
-	TukuiL.option_tooltip_hidecombat = "Прятать подсказку справа внизу в бою"
+	TukuiL.option_tooltip_hidecombat = "Прятать подсказку в бою"
 	TukuiL.option_tooltip_hidebutton = "Прятать подсказку для кнопок панели действий"
 	TukuiL.option_tooltip_hideuf = "Прятать подсказку для рамок юнитов"
 	TukuiL.option_tooltip_cursor = "Подсказка под указателем мыши"
@@ -136,7 +146,10 @@
 	TukuiL.option_actionbar_ssmo = "Показывать панель стоек или тотемов при наведении мыши"
 	TukuiL.option_actionbar_rbn = "Количество панелей комманд снизу (1 или 2)"
 	TukuiL.option_actionbar_rn = "Количество панелей комманд справа (1, 2 или 3)"
- 
+ 	TukuiL.option_actionbar_buttonsize = "Размер кнопок панели действий"
+	TukuiL.option_actionbar_buttonspacing = "Промежуток между кнопками панели действий"
+	TukuiL.option_actionbar_petbuttonsize = "Размер кнопок панели питомца/облика"
+	
 	-- quest watch frame
 	TukuiL.option_quest = "Задания"
 	TukuiL.option_quest_movable = "Включить возможность переноса списока задач"
@@ -148,7 +161,7 @@
 	
 	-- pvp
 	TukuiL.option_pvp = "Pvp"
-	TukuiL.option_pvp_ii = "Enable Interrupt Icons"
+	TukuiL.option_pvp_ii = "Включить иконки прерываний"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "Перезарядки"
@@ -159,9 +172,15 @@
 	TukuiL.option_chat = "Общение"
 	TukuiL.option_chat_enable = "Включить чат Tukui"
 	TukuiL.option_chat_whispersound = "Проигрывать звук при получении личного сообщения"
+	TukuiL.option_chat_background = "Включить фон окна чата"
  
 	-- buttons
 	TukuiL.option_button_reset = "Сброс"
 	TukuiL.option_button_load = "Применить"
 	TukuiL.option_button_close = "Закрыть"
+	TukuiL.option_setsavedsetttings = "Установить настройки для персонажа"
+	TukuiL.option_resetchar = "Вы уверены, что хотите сбросить все настройки для персонажа до настроек по умолчанию?"
+	TukuiL.option_resetall = "Вы уверены, что хотите сбросить все настройки?"
+	TukuiL.option_perchar = "Вы уверены что хотите сменить режим сохранения настроек?"
+	TukuiL.option_makeselection = "Вы должны сделать выбор прежде чем продолжите конфигурацию"	
 end
