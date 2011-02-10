@@ -174,6 +174,10 @@
 	TukuiL.option_chat_whispersound = "Beim Empfang von Flüsternachrichten Ton abspielen"
 	TukuiL.option_chat_background = "Aktiviere die Hintergrund Panelen der Chatfenster"
  
+	 -- buff
+	TukuiL.option_auras = "Auras"
+	TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
+
 	-- buttons
 	TukuiL.option_button_reset = "Zurücksetzen"
 	TukuiL.option_button_load = "Anwenden"

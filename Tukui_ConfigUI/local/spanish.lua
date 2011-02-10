@@ -173,6 +173,10 @@ if GetLocale() == "esES" then
 	TukuiL.option_chat_enable = "Habilitar Chat de TukUI"
 	TukuiL.option_chat_whispersound = "Habilitar sonido cuando recives un sussuro"
 	TukuiL.option_chat_background = "Habilita el fondo del marco de chat"
+	
+	-- buff
+	TukuiL.option_auras = "Auras"
+	TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
  
 	-- buttons
 	TukuiL.option_button_reset = "Resetear"

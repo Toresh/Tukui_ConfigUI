@@ -173,6 +173,10 @@
 	TukuiL.option_chat_enable = "啟用Tukui對話框"
 	TukuiL.option_chat_whispersound = "收到悄悄話時以音效提醒"
 	TukuiL.option_chat_background = "啟用對話框背景"
+		
+	-- buff
+	TukuiL.option_auras = "Auras"
+	TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
  
 	-- buttons
 	TukuiL.option_button_reset = "重置"

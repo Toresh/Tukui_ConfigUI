@@ -20,6 +20,7 @@ local ALLOWED_GROUPS = {
 	["error"]=1,
 	["invite"]=1,
 	["buffreminder"]=1,
+	["auras"]=1,
 }
 
 --List of "Table Names" that we do not want to show in the config
@@ -204,6 +205,10 @@ local function Local(o)
 	if o == "TukuiConfigUIchatenable" then o = TukuiL.option_chat_enable end
 	if o == "TukuiConfigUIchatwhispersound" then o = TukuiL.option_chat_whispersound end
 	if o == "TukuiConfigUIchatbackground" then o = TukuiL.option_chat_background end
+	
+	-- aura
+	if o == "TukuiConfigUIauras" then o = TukuiL.option_auras end
+	if o == "TukuiConfigUIaurasplayer" then o = TukuiL.option_auras_player end
 
 	T.option = o
 end

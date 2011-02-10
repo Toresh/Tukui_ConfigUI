@@ -173,6 +173,10 @@
 	TukuiL.option_chat_enable = "Включить чат Tukui"
 	TukuiL.option_chat_whispersound = "Проигрывать звук при получении личного сообщения"
 	TukuiL.option_chat_background = "Включить фон окна чата"
+	
+	-- buff
+	TukuiL.option_auras = "Auras"
+	TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
  
 	-- buttons
 	TukuiL.option_button_reset = "Сброс"

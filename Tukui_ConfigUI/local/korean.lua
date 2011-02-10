@@ -173,6 +173,10 @@
 	TukuiL.option_chat_enable = "Tukui 대화창을 사용"
 	TukuiL.option_chat_whispersound = "귓속말을 받았을때 소리 출력"
 	TukuiL.option_chat_background = "채팅 패널 배경 사용"
+
+	-- buff
+	TukuiL.option_auras = "Auras"
+	TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
 	
 	-- buttons
 	TukuiL.option_button_reset = "초기화"

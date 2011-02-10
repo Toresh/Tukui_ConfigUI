@@ -173,6 +173,10 @@ if GetLocale() == "frFR" then
 	TukuiL.option_chat_enable = "Activer le Chat Tukui"
 	TukuiL.option_chat_whispersound = "Jouer un son lors de la réception d'un message"
 	TukuiL.option_chat_background = "Activer l'arrière plan du Chat"
+	
+	-- buff
+	TukuiL.option_auras = "Auras"
+	TukuiL.option_auras_player = "Activer les frames buff/debuff de Tukui"
  
 	TukuiL.option_button_reset = "Défaut"
 	TukuiL.option_button_load = "Appliquer"

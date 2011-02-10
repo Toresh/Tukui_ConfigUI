@@ -175,6 +175,10 @@ TukuiL.option_chat_enable = "Enable Tukui Chat"
 TukuiL.option_chat_whispersound = "Play sound when receiving private message"
 TukuiL.option_chat_background = "Enable chat panel background"
 
+-- buff
+TukuiL.option_auras = "Auras"
+TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
+
 -- buttons
 TukuiL.option_button_reset = "Reset"
 TukuiL.option_button_load = "Apply Settings"
