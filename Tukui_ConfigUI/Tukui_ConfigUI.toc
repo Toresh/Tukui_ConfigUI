@@ -3,7 +3,7 @@
 ## Notes: Someday there is only pantesaur left.
 ## Author: Tohveli
 ## Editor: Tukz, Elv22
-## Version: 13.00
+## Version: 13.02
 ## SavedVariables: TukuiConfigAll, TukuiConfigSettings
 ## SavedVariablesPerCharacter: TukuiConfig
 ## RequiredDeps: Tukui
