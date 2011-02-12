@@ -100,6 +100,7 @@
 	TukuiL.option_unitframes_classbar = "Включить классовую панель"
 	TukuiL.option_unitframes_weakenedsoulbar = "Включить уведомление Ослабленной души (для Приста)"
 	TukuiL.option_unitframes_onlyselfdebuffs = "Отображать только ваши дебаффы на цели"
+	TukuiL.option_unitframes_focus = "Включить цель фокуса"
  
 	-- loot
 	TukuiL.option_loot = "Добыча"

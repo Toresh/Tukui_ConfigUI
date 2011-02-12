@@ -100,6 +100,7 @@ if GetLocale() == "esES" then
 	TukuiL.option_unitframes_classbar = "Habilitar Barra de Clase"
 	TukuiL.option_unitframes_weakenedsoulbar = "Habilitar Barra de Notificacion de Alma Debilitada (Sacerdote)"
 	TukuiL.option_unitframes_onlyselfdebuffs = "Mostrar solo tus debuffs en el objetivo"
+	TukuiL.option_unitframes_focus = "Habilitar el Blanco de tu Foco"
  
 	-- loot
 	TukuiL.option_loot = "Botín"

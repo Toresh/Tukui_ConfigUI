@@ -100,6 +100,7 @@
 	TukuiL.option_unitframes_classbar = "Klassen Leiste aktivieren"
 	TukuiL.option_unitframes_weakenedsoulbar = "Aktiviere 'Geschwächte Seele' Anzeige (Priester)"
 	TukuiL.option_unitframes_onlyselfdebuffs = "Zeigt nur deine debuffs auf dem Ziel an"
+	TukuiL.option_unitframes_focus = "Aktiviere Fokus Ziel"
  
 	-- loot
 	TukuiL.option_loot = "Beute"

@@ -132,6 +132,7 @@ local function Local(o)
 	if o == "TukuiConfigUIunitframesclassbar" then o = TukuiL.option_unitframes_classbar end
 	if o == "TukuiConfigUIunitframesweakenedsoulbar" then o = TukuiL.option_unitframes_weakenedsoulbar end
 	if o == "TukuiConfigUIunitframesonlyselfdebuffs" then o = TukuiL.option_unitframes_onlyselfdebuffs end
+	if o == "TukuiConfigUIunitframesshowfocustarget" then o = TukuiL.option_unitframes_focus end
 
 	-- loot
 	if o == "TukuiConfigUIloot" then o = TukuiL.option_loot end

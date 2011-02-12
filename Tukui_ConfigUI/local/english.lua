@@ -101,6 +101,7 @@ TukuiL.option_unitframes_totdebuffs = "Enable Target of Target debuffs (High Res
 TukuiL.option_unitframes_classbar = "Enable class bar"
 TukuiL.option_unitframes_weakenedsoulbar = "Enable Weakened Soul bar notification (Priest)"
 TukuiL.option_unitframes_onlyselfdebuffs = "Display only our debuffs on target"
+TukuiL.option_unitframes_focus = "Enable Focus target"
  
 -- loot
 TukuiL.option_loot = "Loot"

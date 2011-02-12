@@ -100,6 +100,7 @@
 	TukuiL.option_unitframes_classbar = "啟用職業專用列"
 	TukuiL.option_unitframes_weakenedsoulbar = "啟用虛弱靈魂指示 (牧師)"
 	TukuiL.option_unitframes_onlyselfdebuffs = "只在目標頭像上顯示自己釋放的減益效果"
+	TukuiL.option_unitframes_focus = "開啟專注目標的目標"
  
 	-- loot
 	TukuiL.option_loot = "戰利品"
