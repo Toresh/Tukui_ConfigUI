@@ -1,4 +1,8 @@
 ﻿if GetLocale() == "koKR" then
+
+	-- update needed msg
+	TukuiL.option_update = "Tukui 최종 변경으로 인하여 당신의 Tukui ConfigUI를 업데이트 해야합니다.(www.tukui.org 방문해주세요.)"
+	
 	-- general
 	TukuiL.option_general = "일반"
 	TukuiL.option_general_uiscale = "자동으로 UI크기를 조절"
@@ -9,11 +13,18 @@
 	-- nameplate
 	TukuiL.option_nameplates = "이름표"
 	TukuiL.option_nameplates_enable = "이름표를 사용"
+	TukuiL.option_nameplates_enhancethreat = "위협수준 기능 사용, 당신의 역할에 따라 자동적으로 변경됨"
+	TukuiL.option_nameplates_showhealth = "생명력을 표시"
+	TukuiL.option_nameplates_combat = "전투 중에만 표시"
+	TukuiL.option_nameplates_goodcolor = "Good threat color, varies depending if your a tank or dps/heal"
+	TukuiL.option_nameplates_badcolor = "Bad threat color, varies depending if your a tank or dps/heal"
+	TukuiL.option_nameplates_transitioncolor = "Losing/Gaining threat color"
  
 	-- merchant
 	TukuiL.option_merchant = "상점"
 	TukuiL.option_merchant_autosell = "회색 아이템의 자동판매를 사용"
 	TukuiL.option_merchant_autorepair = "자동수리를 사용"
+	TukuiL.option_merchant_sellmisc = "Sell some defined (craps not gray) items automatically"
  
 	-- bags
 	TukuiL.option_bags = "가방"
@@ -41,6 +52,10 @@
 	TukuiL.option_datatext_dps = "초당 피해량"
 	TukuiL.option_datatext_crit = "치명타 및 주문 극대화 적중도"
 	TukuiL.option_datatext_dur = "장비의 내구도"	
+	TukuiL.option_datatext_currency = "화폐 위치 (0 이면 미사용)"
+	TukuiL.option_datatext_micromenu = "마이크로 메뉴 위치 (0 이면 미사용)"
+	TukuiL.option_datatext_hit = "적중도 위치 (0 이면 미사용)"--@@
+	TukuiL.option_datatext_mastery = "특화도 위치 (0 이면 미사용)"--@@
  
 	-- unit frames
 	TukuiL.option_unitframes_unitframes = "개체창"
@@ -54,17 +69,14 @@
 	TukuiL.option_unitframes_castbar = "시전바를 사용"
 	TukuiL.option_unitframes_targetaura = "대상창에 강화 및 약화 효과를 보여줌"
 	TukuiL.option_unitframes_saveperchar = "개체창의 위치를 캐릭터별로 저장"
-	TukuiL.option_unitframes_wstimer = "약화된 영혼 바를 사용 (사제 전용)"
 	TukuiL.option_unitframes_playeraggro = "위협수준이 증가하면 강조"
 	TukuiL.option_unitframes_smooth = "부드러운 바를 사용"
 	TukuiL.option_unitframes_portrait = "플레이어와 대상의 초상화를 보여줌"
 	TukuiL.option_unitframes_enable = "Tukui 개체창을 사용"
-	TukuiL.option_unitframes_wstarget = "대상창에 약화된 영혼바를 보여줌 (사제 전용)"
 	TukuiL.option_unitframes_enemypower = "PVP대상만 분노, 기력 등의 글자를 보여줌"
 	TukuiL.option_unitframes_gridonly = "힐러용 인터페이스일 때 격자모양으로 설정"
 	TukuiL.option_unitframes_healcomm = "Healcomm 기능을 사용"
 	TukuiL.option_unitframes_focusdebuff = "주시대상의 약화 효과를 보여줌"
-	TukuiL.option_unitframes_wsplayer = "플레이어창에 약화된 영혼바를 보여줌"
 	TukuiL.option_unitframes_raidaggro = "위협수준이 높은 공격대원을 강조"
 	TukuiL.option_unitframes_boss = "우두머리 개체창을 사용"
 	TukuiL.option_unitframes_enemyhostilitycolor = " 적대감에 의존한 대상창 바의 색을 사용"
@@ -85,6 +97,10 @@
 	TukuiL.option_unitframes_mainassist = "지원공격 전담창을 사용"
 	TukuiL.option_unitframes_unicolor = "직업색상을 사용"
 	TukuiL.option_unitframes_totdebuffs = "대상의 대상의 약화 효과를 보여줌 (고해상도 전용)"
+	TukuiL.option_unitframes_classbar = "직업 바 사용"
+	TukuiL.option_unitframes_weakenedsoulbar = "약화된 영혼 알림바 사용 (사제)"
+	TukuiL.option_unitframes_focus = "주시대상의 대상을 보여줌"
+
  
 	-- loot
 	TukuiL.option_loot = "전리품"
@@ -103,10 +119,10 @@
 	-- tooltip
 	TukuiL.option_tooltip = "툴팁"
 	TukuiL.option_tooltip_enable = "툴팁을 사용"
-	TukuiL.option_tooltip_hidecombat = "전투 중에 툴팁을 숨김"
+	TukuiL.option_tooltip_hidecombat = "전투시 툴팁을 숨김"
 	TukuiL.option_tooltip_hidebutton = "행동 단축버튼의 툴팁을 숨김"
 	TukuiL.option_tooltip_hideuf = "개체창의 툴팁을 숨김"
-	TukuiL.option_tooltip_cursor = "Enable cursor tooltip"
+	TukuiL.option_tooltip_cursor = "커서 툴팁 사용"
  
 	-- others
 	TukuiL.option_others = "기타"
@@ -131,7 +147,10 @@
 	TukuiL.option_actionbar_ssmo = "특수 기술 단축바를 커서가 위치했을 때 보여줌"
 	TukuiL.option_actionbar_rbn = "하단 단축바의 줄의 수 (1 또는 2)"
 	TukuiL.option_actionbar_rn = "우측 단축바의 줄의 수 (0부터 3까지, 하단 단축바의 줄의 수가 2인 경우 0 또는 1)"
- 
+	TukuiL.option_actionbar_buttonsize = "행동 단축버튼의 크기"
+	TukuiL.option_actionbar_buttonspacing = "행동 단축버튼의 간격"
+	TukuiL.option_actionbar_petbuttonsize = "펫/태세 버튼의 크기"
+	
 	-- quest watch frame
 	TukuiL.option_quest = "임무 추적기"
 	TukuiL.option_quest_movable = "임무 추적기 이동을 사용"
@@ -140,6 +159,10 @@
 	TukuiL.option_arena = "투기장"
 	TukuiL.option_arena_st = "상대 플레이어의 주문 추적을 사용"
 	TukuiL.option_arena_uf = "투기장 상대 플레이어창을 사용 (Tukui 개체창을 사용 중이어야 함)"
+	
+	-- pvp
+	TukuiL.option_pvp = "PVP"
+	TukuiL.option_pvp_ii = "방해 아이콘을 사용"
  
 	-- cooldowns
 	TukuiL.option_cooldown = "재사용 대기시간"
@@ -149,10 +172,20 @@
 	-- chat
 	TukuiL.option_chat = "커뮤니티"
 	TukuiL.option_chat_enable = "Tukui 대화창을 사용"
-	TukuiL.option_chat_whispersound = "Play sound when receiving private message"
+	TukuiL.option_chat_whispersound = "귓속말을 받았을때 소리 출력"
+	TukuiL.option_chat_background = "채팅 패널 배경 사용"
+
+	-- buff
+	TukuiL.option_auras = "Auras"
+	TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
 	
 	-- buttons
-	TukuiL.option_button_reset = "Reset"
-	TukuiL.option_button_load = "Load"
-	TukuiL.option_button_close = "Close"
+	TukuiL.option_button_reset = "초기화"
+	TukuiL.option_button_load = "불러오기"
+	TukuiL.option_button_close = "닫기"
+	TukuiL.option_setsavedsetttings = "캐릭터별로 저장"
+	TukuiL.option_resetchar = "해당 캐릭터의 설정을 기본 설정으로 초기화하시겠습니까?"
+	TukuiL.option_resetall = "모든 캐릭터의 설정을 기본 설정으로 초기화하시겠습니까?"
+	TukuiL.option_perchar = "설정을 캐릭터별로 저장하시겠습니까?"
+	TukuiL.option_makeselection = "계속하기전에 선택을 해야합니다."	
 end
