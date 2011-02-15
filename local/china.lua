@@ -151,6 +151,26 @@
 	TukuiL.option_chat_enable = "开启Tukui对话框"
 	TukuiL.option_chat_whispersound = "收到悄悄话时以音效提醒"
  
+	--castbar
+	TukuiL.option_castbar = "Cast Bar"
+	TukuiL.option_castbar_unitcastbar = "Enable uint cast bar"
+	TukuiL.option_castbar_unitswingbar = "Enable swing bar"
+	TukuiL.option_castbar_cblatency = "Enable Cast bar Latency"
+	TukuiL.option_castbar_cbicons = "Enable cast bar icons"
+	TukuiL.option_castbar_castBarHeight = "Set cast bar height"
+	TukuiL.option_castbar_castBarWidth = "Set cast bar width"
+	TukuiL.option_castbar_castBarX = "Set x position of cast bar"
+	TukuiL.option_castbar_castBarY = "Set y position of cast bar"
+	TukuiL.option_castbar_targetX = "Set x position of target cast bar"
+	TukuiL.option_castbar_targetY = "Set y position of target cast bar"
+	TukuiL.option_castbar_targetHeight = "Set target cast bar Height"
+	TukuiL.option_castbar_targetWidth = "Set target cast bar width"
+	TukuiL.option_castbar_iconSize = "Set icon Size"
+	TukuiL.option_castbar_swingBarHeight = "Set swing bar Height"
+	TukuiL.option_castbar_swingBarWidth = "Set swing bar Width"
+	TukuiL.option_castbar_swingBarX = "Set Swing bar X position"
+	TukuiL.option_castbar_swingBarY = "Set swing bar y position"
+ 
 	-- buttons
 	TukuiL.option_button_reset = "重置"
 	TukuiL.option_button_load = "读取"

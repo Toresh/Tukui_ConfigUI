@@ -22,6 +22,7 @@ local ALLOWED_GROUPS = {
 	["invite"]=1,
 	["buffreminder"]=1,
 	["auras"]=1,
+	["castbar"] =1,
 }
 
 --List of "Table Names" that we do not want to show in the config
@@ -240,6 +241,26 @@ local function Local(o)
 	if o == "TukuiConfigUIauras" then o = TukuiL.option_auras end
 	if o == "TukuiConfigUIaurasplayer" then o = TukuiL.option_auras_player end
 
+	--castbar
+	if o == "TukuiConfigUIcastbar" then o = TukuiL.option_castbar end
+	if o == "TukuiConfigUIcastbarunitcastbar" then o = TukuiL.option_castbar_unitcastbar end
+	if o == "TukuiConfigUIcastbarunitswingbar" then o = TukuiL.option_castbar_unitswingbar end
+	if o == "TukuiConfigUIcastbarcblatency" then o = TukuiL.option_castbar_cblatency end
+	if o == "TukuiConfigUIcastbarcbicons" then o = TukuiL.option_castbar_cbicons end
+	if o == "TukuiConfigUIcastbarcastBarHeight" then o = TukuiL.option_castbar_castBarHeight end
+	if o == "TukuiConfigUIcastbarcastBarWidth" then o = TukuiL.option_castbar_castBarWidth end
+	if o == "TukuiConfigUIcastbarcastBarX" then o = TukuiL.option_castbar_castBarX end
+	if o == "TukuiConfigUIcastbarcastBarY" then o = TukuiL.option_castbar_castBarY end
+	if o == "TukuiConfigUIcastbartargetX" then o = TukuiL.option_castbar_targetX end
+	if o == "TukuiConfigUIcastbartargetY" then o = TukuiL.option_castbar_targetY end
+	if o == "TukuiConfigUIcastbartargetHeight" then o = TukuiL.option_castbar_targetHeight end
+	if o == "TukuiConfigUIcastbartargetWidth" then o = TukuiL.option_castbar_targetWidth end
+	if o == "TukuiConfigUIcastbariconSize" then o = TukuiL.option_castbar_iconSize end
+	if o == "TukuiConfigUIcastbarswingBarHeight" then o = TukuiL.option_castbar_swingBarHeight end
+	if o == "TukuiConfigUIcastbarswingBarWidth" then o = TukuiL.option_castbar_swingBarWidth end
+	if o == "TukuiConfigUIcastbarswingBarX" then o = TukuiL.option_castbar_swingBarX end
+	if o == "TukuiConfigUIcastbarswingBarY" then o = TukuiL.option_castbar_swingBarY end
+	
 	T.option = o
 end
 
