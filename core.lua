@@ -245,6 +245,8 @@ local function Local(o)
 	if o == "TukuiConfigUIcastbar" then o = TukuiL.option_castbar end
 	if o == "TukuiConfigUIcastbarunitcastbar" then o = TukuiL.option_castbar_unitcastbar end
 	if o == "TukuiConfigUIcastbarunitswingbar" then o = TukuiL.option_castbar_unitswingbar end
+	if o == "TukuiConfigUIcastbarplayerStandAlone" then o = TukuiL.option_castbar_playerStandAlone end
+	if o == "TukuiConfigUIcastbartargetStandAlone" then o = TukuiL.option_castbar_targetStandAlone end
 	if o == "TukuiConfigUIcastbarcblatency" then o = TukuiL.option_castbar_cblatency end
 	if o == "TukuiConfigUIcastbarcbicons" then o = TukuiL.option_castbar_cbicons end
 	if o == "TukuiConfigUIcastbarcastBarHeight" then o = TukuiL.option_castbar_castBarHeight end

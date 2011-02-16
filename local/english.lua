@@ -209,10 +209,12 @@ TukuiL.option_broker_datatext_ZOMGBuffs = "ZOMGBuffs"
 TukuiL.option_auras = "Auras"
 TukuiL.option_auras_player = "Enable Tukui Buff/Debuff Frames"
 
-	--castbar
+--castbar
 TukuiL.option_castbar = "Cast Bar"
 TukuiL.option_castbar_unitcastbar = "Enable uint cast bar"
 TukuiL.option_castbar_unitswingbar = "Enable swing bar"
+TukuiL.option_castbar_playerStandAlone = "Enable a stand alone cast bar for player"
+TukuiL.option_castbar_targetStandAlone = "Enable a stand alone cast bar for target"
 TukuiL.option_castbar_cblatency = "Enable Cast bar Latency"
 TukuiL.option_castbar_cbicons = "Enable cast bar icons"
 TukuiL.option_castbar_castBarHeight = "Set cast bar height"
